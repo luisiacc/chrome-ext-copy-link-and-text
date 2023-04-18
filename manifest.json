@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Copy Content and Link",
+  "version": "1.0",
+  "description": "Copy content and link from a right-clicked element",
+  "permissions": ["contextMenus", "clipboardWrite", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
